@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin-top: 20px;
+  background-color: #38d4a6
+}
+
+.game-board {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 80px;
+  height: 80px;
+  background-color: #38d4a6;
+  margin: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+.button-group > * {
+  margin-right: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #750d0d;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #97af0c;
+  font-weight: bold;
+}
+
+body {
+  background-color: #580451; /* Change the background color to your desired color */
+  color: #520f5f; /* Change the text color to ensure readability */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #0a7563; /* Change the background color of the container as desired */
+  height: calc(100vh - 160px); /* Adjust the height to leave space for the game board and buttons */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container {
+  display: inline-block;
+  background-color: #4825a8;
+  border: 2px solid #1a1818;
+  padding: 50px;
+  border-radius: 40px;
+  margin-top: 20px;
+}
+
+
+/* Rest of the CSS styles remain the same */

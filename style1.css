@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+  }
+
+.title-box {
+    display: inline-block;
+    border: 2px solid #333;
+    padding: 100px;
+    border-radius: 100px;
+  }
+
+  .front-page {
+    margin-top: 200px;
+  }
+  
+  .title {
+    font-size: 48px;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+
+  
+  
